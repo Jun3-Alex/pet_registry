@@ -1,0 +1,43 @@
+    1  bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+    2  exit
+    3  sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
+    4  exit
+    5  sudo apt-get update
+    6  apt install git
+    7  git --version
+    8  git clone https://github.com/Jun3-Alex/pet_registry.git
+    9  cd pet_registry
+   10  cat > Pets.txt
+   11  cat Pets.txt
+   12  cat PackAnimals.txt
+   13  cat > PackAnimals.txt
+   14  cat Pets.txt PackAnimals.txt > HumanFriends.txt
+   15  ls -l
+   16  mkdir HappyTreeAnimals
+   17  mv HumanFriends.txt HappyTreeAnimals/
+   18  cd HappyTreeAnimals
+   19  ls -l
+   20  mv HappyTreeAnimals HappyTreeFriends
+   21  cd .
+   22  cd ..
+   23  mv HappyTreeAnimals HappyTreeFriends
+   24  ls -l
+   25  cd HappyTreeFriends
+   26  ls -l
+   27  wget https://dev.mysql.com/get/mysql-apt-config_0.8.16-1_all.deb
+   28  sudo dpkg -i mysql-apt-config_0.8.16-1_all.deb
+   29  mysql --version
+   30  grep -l | grep mysql
+   31  dpkg -l | grep mysql
+   32  wget http://archive.ubuntu.com/ubuntu/pool/universe/c/cowsay/cowsay_3.03+dfsg2-7_all.deb
+   33  sudo dpkg -i cowsay_3.03+dfsg2-7_all.deb
+   34  sudo dpkg -r cowsay
+   35  sudo apt update
+   36  ls /etc/apt/sources.list.d/
+   37  sudo rm /etc/apt/sources.list.d/mysql.list
+   38  ls /etc/apt/sources.list.d/
+   39  sudo apt update
+   40  apt install mysql-server
+   41  systemctl status mysql
+   42  history
+   43  history > cmd_history.txt
